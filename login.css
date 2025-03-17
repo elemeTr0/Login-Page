@@ -1,0 +1,101 @@
+
+#login
+{
+    font-family: 'Press Start 2P', cursive;
+    z-index: 9999;
+    border: solid #696969 1px;
+    outline: none;
+    animation: none;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 35px;
+    color: aliceblue;
+    background-color: #222;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+#login:hover{
+    backdrop-filter: blur(20px);
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#login:focus{
+
+}
+#login:active{
+    transition: 0.1s;
+    transform: scale(0.9);
+}
+.logwin
+{
+    padding: 20px;
+    font-family: 'Press Start 2P', cursive;
+    z-index: 9999;
+    display: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: rgba(55, 53, 53, 0.16);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+    border: 1px solid rgba(56, 55, 55, 0.3);
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+}
+form {
+    border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+#submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Add a hover effect for buttons */
+#submit:hover {
+    opacity: 0.8;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 30px;
+}

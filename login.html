@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+<div class="scanlines"></div>
+
+<div class="intro-wrap">
+    <div class="noise"></div>
+    <div class="noise noise-moving"></div>
+
+    <div class="play" data-splitting>PLAY</div>
+    <div class="time">--:--</div>
+    <div class="recordSpeed">SLP 0:00:00</div>
+</div>
+<button id="login">LOGIN</button>
+<div class="logwin">
+    <h1>LOGIN</h1>
+    <div class="container">
+        <label><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button id="submit" type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label><br>
+
+    </div>
+    <!-- <span class="psw"><a href="#">Forgot password?</a></span> -->
+ </div>
+
+ <script src="index.js"></script>
+ </body>
+ </html>
